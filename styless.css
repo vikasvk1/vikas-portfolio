@@ -395,3 +395,25 @@ span{
         margin-top: 2rem;
     }
 }
+@media(max-width: 300px){
+    .home-img img{
+        width: 30vh;
+    }
+    .about-img img{
+        width: 30vh;
+        text-align: center;
+    }
+    .home-content h1{
+        font-size: 4rem;
+    }
+    .home-content h3{
+        font-size: 1.5rem;
+    }
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .footer p{
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
